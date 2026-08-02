@@ -1,0 +1,19 @@
+{
+  "candidate": {
+    "kind": "release",
+    "ref": "context"
+  },
+  "case_refs": [],
+  "cell": {
+    "harness": "unconfigured",
+    "model": "unpinned"
+  },
+  "corpus_hash": "",
+  "schema": "flowharness/ci-suite/v1",
+  "suite_id": "suite:seeded",
+  "thresholds": {
+    "max_regressions": 0,
+    "min_pass_rate_bp": 10000,
+    "vs_baseline": false
+  }
+}

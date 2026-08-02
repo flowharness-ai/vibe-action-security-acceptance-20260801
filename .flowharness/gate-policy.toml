@@ -1,0 +1,6 @@
+# FlowHarness gate policy for the public Vibe acceptance fixture.
+human_judged = false
+scope = "aggregate"
+min_pass_rate_bp = 9500
+max_regressions = 0
+required_cells = []

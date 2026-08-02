@@ -1,0 +1,21 @@
+name: Vibe Check
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  vibe-check:
+    runs-on: ubuntu-latest
+    env:
+      XDG_CONFIG_HOME: ${{ github.workspace }}/.vibe-user-config
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: flowharness-ai/vibe-check-action@v1.0.1
+        with:
+          github-token: ${{ github.token }}
