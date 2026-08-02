@@ -1,0 +1,21 @@
+{
+  "case_id": "case-3449813a528cd4f4f79b4365",
+  "cost_micro": 0,
+  "dimension": "structure",
+  "expected": {
+    "contains": [
+      "surface: AGENTS.md",
+      "seeded: flowharness-ci seed (templates v1)"
+    ]
+  },
+  "provenance": "seeded_template",
+  "recorded_output": "surface: AGENTS.md\nharness: agents\nkind: rule\nseeded: flowharness-ci seed (templates v1)",
+  "schema": "flowharness/ci-case/v1",
+  "surface": {
+    "harness": "agents",
+    "kind": "rule",
+    "path": "AGENTS.md"
+  },
+  "tokens_in": 0,
+  "tokens_out": 0
+}
